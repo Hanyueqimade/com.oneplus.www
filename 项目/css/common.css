@@ -16,7 +16,7 @@
 
 .container {
   margin: 0 auto;
-  width: 1166px;
+  width: 1200px;
 }
 
 @font-face {font-family: "iconfont";
@@ -56,3 +56,748 @@
   content: "\e63e";
 }
 
+
+@font-face {
+    font-family: one;
+    src: url(/ov/assets/fonts/one/one.eot?319e0728);
+    src: url(/ov/assets/fonts/one/one.eot?319e0728?#iefix) format("eot"),url(data:font/woff2;base64,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) format("woff2"),url(/ov/assets/fonts/one/one.woff?13af8d05) format("woff"),url(/ov/assets/fonts/one/one.ttf?73300297) format("truetype"),url(/ov/assets/fonts/one/one.svg?1b98efb0#one) format("svg")
+}
+
+.ico-address:before {
+    content: "\E001"
+}
+
+.ico-address:before,.ico-arrow-down-light:before {
+    font-family: one;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: none
+}
+
+.ico-arrow-down-light:before {
+    content: "\E002"
+}
+
+.ico-arrow-down:before {
+    content: "\E003"
+}
+
+.ico-arrow-down:before,.ico-arrow-left-light:before {
+    font-family: one;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: none
+}
+
+.ico-arrow-left-light:before {
+    content: "\E004"
+}
+
+.ico-arrow-right-normal:before {
+    content: "\E005"
+}
+
+.ico-arrow-right-normal:before,.ico-arrow-right:before {
+    font-family: one;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: none
+}
+
+.ico-arrow-right:before {
+    content: "\E006"
+}
+
+.ico-audio:before {
+    content: "\E007"
+}
+
+.ico-audio:before,.ico-bag:before {
+    font-family: one;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: none
+}
+
+.ico-bag:before {
+    content: "\E008"
+}
+
+.ico-bag_v2:before {
+    content: "\E009"
+}
+
+.ico-bag_v2:before,.ico-bookmark:before {
+    font-family: one;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: none
+}
+
+.ico-bookmark:before {
+    content: "\E00A"
+}
+
+.ico-brand:before {
+    content: "\E00B"
+}
+
+.ico-brand:before,.ico-bundles:before {
+    font-family: one;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: none
+}
+
+.ico-bundles:before {
+    content: "\E00C"
+}
+
+.ico-calendar:before {
+    font-family: one;
+    content: "\E00D"
+}
+
+.ico-call:before {
+    content: "\E00E"
+}
+
+.ico-call:before,.ico-call_v2:before {
+    font-family: one;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: none
+}
+
+.ico-call_v2:before {
+    content: "\E00F"
+}
+
+.ico-cart-empty:before {
+    content: "\E010"
+}
+
+.ico-cart-empty:before,.ico-cart-exchange:before {
+    font-family: one;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: none
+}
+
+.ico-cart-exchange:before {
+    content: "\E011"
+}
+
+.ico-cart-gift:before {
+    content: "\E012"
+}
+
+.ico-cart-gift:before,.ico-cart-reason:before {
+    font-family: one;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: none
+}
+
+.ico-cart-reason:before {
+    content: "\E013"
+}
+
+.ico-cart-security:before {
+    content: "\E014"
+}
+
+.ico-cart-security:before,.ico-cases-protection:before {
+    font-family: one;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: none
+}
+
+.ico-cases-protection:before {
+    content: "\E015"
+}
+
+.ico-cat-phone:before {
+    content: "\E016"
+}
+
+.ico-cat-phone:before,.ico-cellphone:before {
+    font-family: one;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: none
+}
+
+.ico-cellphone:before {
+    content: "\E017"
+}
+
+.ico-contact:before {
+    content: "\E018"
+}
+
+.ico-contact:before,.ico-dash:before {
+    font-family: one;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: none
+}
+
+.ico-dash:before {
+    content: "\E019"
+}
+
+.ico-earphones:before {
+    content: "\E01A"
+}
+
+.ico-earphones:before,.ico-email:before {
+    font-family: one;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: none
+}
+
+.ico-email:before {
+    content: "\E01B"
+}
+
+.ico-face-smile:before {
+    content: "\E01C"
+}
+
+.ico-face-smile:before,.ico-face-upset:before {
+    font-family: one;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: none
+}
+
+.ico-face-upset:before {
+    content: "\E01D"
+}
+
+.ico-facebook-stroke:before {
+    content: "\E01E"
+}
+
+.ico-facebook-stroke:before,.ico-facebook:before {
+    font-family: one;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: none
+}
+
+.ico-facebook:before {
+    content: "\E01F"
+}
+
+.ico-filter:before {
+    content: "\E020"
+}
+
+.ico-filter:before,.ico-free-delivery:before {
+    font-family: one;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: none
+}
+
+.ico-free-delivery:before {
+    content: "\E021"
+}
+
+.ico-full-bag:before {
+    content: "\E022"
+}
+
+.ico-full-bag:before,.ico-gear:before {
+    font-family: one;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: none
+}
+
+.ico-gear:before {
+    content: "\E023"
+}
+
+.ico-google-plus:before {
+    content: "\E024"
+}
+
+.ico-google-plus:before,.ico-half-bag:before {
+    font-family: one;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: none
+}
+
+.ico-half-bag:before {
+    content: "\E025"
+}
+
+.ico-head-oneplus-7:before {
+    content: "\E026"
+}
+
+.ico-head-oneplus-7:before,.ico-head-oneplus-7pro-5g:before {
+    font-family: one;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: none
+}
+
+.ico-head-oneplus-7pro-5g:before {
+    content: "\E027"
+}
+
+.ico-head-oneplus-7pro:before {
+    content: "\E028"
+}
+
+.ico-head-oneplus-7pro:before,.ico-head-oneplus-tv-acc:before {
+    font-family: one;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: none
+}
+
+.ico-head-oneplus-tv-acc:before {
+    content: "\E029"
+}
+
+.ico-head-oneplus-tv:before {
+    content: "\E02A"
+}
+
+.ico-head-oneplus7-2:before,.ico-head-oneplus-tv:before {
+    font-family: one;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: none
+}
+
+.ico-head-oneplus7-2:before {
+    content: "\E02B"
+}
+
+.ico-head-oneplus7pro-2:before {
+    content: "\E02C"
+}
+
+.ico-head-oneplus7pro-2:before,.ico-head-oneplus7pro-5g:before {
+    font-family: one;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: none
+}
+
+.ico-head-oneplus7pro-5g:before {
+    content: "\E02D"
+}
+
+.ico-head-phone:before {
+    content: "\E02E"
+}
+
+.ico-head-phone:before,.ico-help_v2:before {
+    font-family: one;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: none
+}
+
+.ico-help_v2:before {
+    content: "\E02F"
+}
+
+.ico-instagram:before {
+    content: "\E030"
+}
+
+.ico-instagram:before,.ico-less:before {
+    font-family: one;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: none
+}
+
+.ico-less:before {
+    content: "\E031"
+}
+
+.ico-link:before {
+    content: "\E032"
+}
+
+.ico-link:before,.ico-load3d:before {
+    font-family: one;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: none
+}
+
+.ico-load3d:before {
+    content: "\E033"
+}
+
+.ico-location:before {
+    content: "\E034"
+}
+
+.ico-location:before,.ico-location_v2:before {
+    font-family: one;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: none
+}
+
+.ico-location_v2:before {
+    content: "\E035"
+}
+
+.ico-more:before {
+    content: "\E036"
+}
+
+.ico-more:before,.ico-new:before {
+    font-family: one;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: none
+}
+
+.ico-new:before {
+    content: "\E037"
+}
+
+.ico-phone:before {
+    content: "\E038"
+}
+
+.ico-phone:before,.ico-power-banks:before {
+    font-family: one;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: none
+}
+
+.ico-power-banks:before {
+    content: "\E039"
+}
+
+.ico-power-cables:before {
+    content: "\E03A"
+}
+
+.ico-power-cables:before,.ico-qq:before {
+    font-family: one;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: none
+}
+
+.ico-qq:before {
+    content: "\E03B"
+}
+
+.ico-qqzone:before {
+    content: "\E03C"
+}
+
+.ico-qqzone:before,.ico-refresh:before {
+    font-family: one;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: none
+}
+
+.ico-refresh:before {
+    content: "\E03D"
+}
+
+.ico-return-policy:before {
+    content: "\E03E"
+}
+
+.ico-return-policy:before,.ico-search:before {
+    font-family: one;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: none
+}
+
+.ico-search:before {
+    content: "\E03F"
+}
+
+.ico-search_v2:before {
+    content: "\E040"
+}
+
+.ico-search_v2:before,.ico-secure-payments:before {
+    font-family: one;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: none
+}
+
+.ico-secure-payments:before {
+    content: "\E041"
+}
+
+.ico-serviceIcons-15:before {
+    content: "\E042"
+}
+
+.ico-serviceIcons-15:before,.ico-serviceIcons-30:before {
+    font-family: one;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: none
+}
+
+.ico-serviceIcons-30:before {
+    content: "\E043"
+}
+
+.ico-serviceIcons-7:before {
+    content: "\E044"
+}
+
+.ico-serviceIcons-7:before,.ico-serviceIcons-gift:before {
+    font-family: one;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: none
+}
+
+.ico-serviceIcons-gift:before {
+    content: "\E045"
+}
+
+.ico-serviceIcons-safe:before {
+    content: "\E046"
+}
+
+.ico-serviceIcons-safe:before,.ico-snapchat-ghost:before {
+    font-family: one;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: none
+}
+
+.ico-snapchat-ghost:before {
+    content: "\E047"
+}
+
+.ico-store-insurance:before {
+    content: "\E048"
+}
+
+.ico-store-insurance:before,.ico-success:before {
+    font-family: one;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: none
+}
+
+.ico-success:before {
+    content: "\E049"
+}
+
+.ico-twitter:before {
+    content: "\E04A"
+}
+
+.ico-twitter:before,.ico-user:before {
+    font-family: one;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: none
+}
+
+.ico-user:before {
+    content: "\E04B"
+}
+
+.ico-user_v2:before {
+    content: "\E04C"
+}
+
+.ico-user_v2:before,.ico-wechat:before {
+    font-family: one;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: none
+}
+
+.ico-wechat:before {
+    content: "\E04D"
+}
+
+.ico-weibo:before {
+    font-family: one;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: none;
+    content: "\E04E"
+}

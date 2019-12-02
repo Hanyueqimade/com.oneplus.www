@@ -3,45 +3,377 @@
     height: 60px;
     background-color: #ffffff;
 }
+
+.new {
+    border: 1px solid #000;
+    border-radius: 5px;
+    font-size: 10px;
+}
+
 .top1-left{
-   margin-top: calc((60px - 32px) / 2);
+   line-height: 60px;
    box-sizing: border-box;
     float: left;
 }
+
+.top1-left a{
+    margin-left: 26px;
+}
+
 .top1-center{
-    margin-left: 242px;
+    margin-left: 234px;
 line-height: 60px;
     float: left;
     
 }
+
 .top1-center a{
     float: left;
     font-size: 14px;
     color: #000000;
     margin-right: 40px;
 }
+
 .top1-center a i{
     margin-right: 10px;
 }
+
 .top1-right{
 float: right;
 line-height: 60px;
 }
+
 .top1-right span{
     font-size: 22px;
     font-weight: 400;
     float: left;
-    margin-left:  30px;
+    margin-left:17px;
 }
+
 .oneplus-family {
+    position: relative;
     width: 100%;
-    height: 225px;
+    height: 300px;
     background-image: url(../img/oneplus-first-1.jpg);
+    background-position: -315px 0;
+}
+
+
+
+.oneplus-family-content {
+    position: absolute;
+    left: 476px;
+    top: 50px;
+    width:500px;
+    height: 200px;
+}
+
+.oneplus-family-content h3{
+    color: white;
+    font-size: 30px;
+    line-height: 2.4;
+}
+
+.oneplus-family-content p{
+        margin-bottom: 40px;
+    color: white;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+.oneplus-family-content a span {
+    display: inline-block;
+    color: white;
+    font-size: 15px;
+}
+
+.oneplus-family-content a span:hover {
+    text-decoration: underline;
 }
 
 .oneplus-7T {
+    position: relative;
     width: 100%;
-    height: 510px;
-    margin-top: 20px;
-    background-image: url(../img/oneplus-first-2.jpg);
+    height: 680px;
+    margin-top: 10px;
+    background-image: url(../upload/oneplus-first-2.jpg);
+        background-position: -315px 0;
 }
+
+.oneplus-7T-content {
+    position: absolute;
+    left: 476px;
+    top: 50%;
+    width:500px;
+    height: 264px;
+    margin-top: -132px;
+}
+
+.oneplus-7T-content h3{
+    color: #000000;
+    font-size: 48px;
+}
+
+.oneplus-7T-content p:nth-child(2){
+    color: #000000  ;
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+.oneplus-7T-content p:nth-child(3){
+    color: #000000  ;
+    font-size: 18px;
+    font-weight: 333;
+    line-height: 1.5;
+}
+
+.oneplus-7T-content-buy {
+    position: relative;
+    margin-top: 40px;
+    text-align: center;
+    width: 162px;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid #101920;
+}
+
+.oneplus-7T-content-buy:hover{
+    color: white;
+    z-index: 1;
+}
+
+.oneplus-7T-content-buy span {
+    font-size: 16px;
+}
+
+.oneplus-7T-content-buy:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 50px;
+    width: 0;   
+    background-color: #000000;
+    transition: all 0.25s;
+} 
+
+.oneplus-7T-content-buy:hover:after {
+    width: 162px;
+    z-index: -1;
+}
+
+.oneplus-7T-content-buy:hover::before{
+    color: white;
+}
+
+.oneplus-7T-content a:nth-last-child(1){
+    display: block;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.oneplus-7T-content a:nth-last-child(1):hover{
+    text-decoration: underline;
+}
+
+
+.oneplus-7T-limit {
+    position: relative;
+    width: 100%;
+    height: 680px;
+    margin-top: 10px;
+    background-image: url(../upload/oneplus-first-3.jpg);
+        background-position: -315px 0;
+}
+
+.oneplus-7T-limit-content {
+    position: absolute;
+    left: 476px;
+    top: 50%;
+    width:500px;
+    height: 321px;
+    margin-top: -160.5px;
+}
+
+.oneplus-7T-limit-content h3{
+    color: white;
+    font-size: 48px;
+}
+
+.oneplus-7T-limit-content p:nth-child(2){
+    color: white  ;
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+.oneplus-7T-limit-content p:nth-child(3){
+    color: white;
+    font-size: 18px;
+    font-weight: 333;
+    line-height: 3;
+}
+
+.oneplus-7T-limit-content-buy {
+    position: relative;
+    margin-top: 40px;
+    text-align: center;
+    width: 162px;
+    height: 50px;
+    line-height: 50px;
+    color: white;
+    border: 1px solid white;
+}
+
+.oneplus-7T-limit-content-buy:hover{
+    color: black;
+    z-index: 1;
+}
+
+.oneplus-7T-limit-content-buy span {
+    font-size: 16px;
+}
+
+.oneplus-7T-limit-content-buy:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 50px;
+    width: 0;   
+    background-color: white;
+    transition: all 0.25s;
+} 
+
+.oneplus-7T-limit-content-buy:hover:after {
+    width: 162px;
+    z-index: -1;
+}
+
+.oneplus-7T-limit-content-buy:hover::before{
+    color: black;
+}
+
+.oneplus-7T-limit-content a:nth-last-child(1){
+    display: block;
+    color: white;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.oneplus-7T-limit-content a:nth-last-child(1):hover{
+    text-decoration: underline;
+}
+
+.as{
+    width: 100%;
+    height: 1020px;
+    overflow: hidden;
+}
+
+.as a{
+    display: inline-block;
+      overflow: hidden; 
+    width: 936.5px;
+    height: 500px;
+    margin: 5px;
+    background-position: -170px 0;
+}
+
+.as a:nth-child(1) {
+    background-image: url(../upload/oneplus-first-4.jpg);
+}
+.as a:nth-child(2) {
+    background-image: url(../upload/oneplus-first-5.jpg);
+}
+.as a:nth-child(3) {
+    background-image: url(../upload/oneplus-first-6.jpg);
+}
+.as a:nth-child(4) {
+    background-image: url(../upload/oneplus-first-7.jpg);
+}
+
+.as div {
+    text-align: center;
+    width: 100%;
+}
+
+.as-content-1 {
+    font-weight: bold;
+    margin-top: 30px;
+    font-size: 30px;
+} 
+
+.as-content-bottom {
+    font-weight: 549;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.as-content-2 {
+    font-weight: bold;
+    margin-top: 30px;
+    font-size: 30px;
+    color: white;
+}
+
+.as-content-bottoms {
+    font-weight: 549;
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+.shot{
+    position: relative;
+    width: 100%;
+    height: 720px;
+    margin-top: 10px;
+    background-image: url(../upload/oneplus-first-8.jpg);
+}
+
+.shot-content {
+    position: absolute;
+    width: 100%;
+    height: 140px;
+    text-align: center;
+    top: 50%;
+    margin-bottom: -70px;
+    color: white;
+}
+
+.shot-content p{
+    color: white;
+    font-size: 48px;
+}
+
+.join {
+    position: relative;
+    margin: auto;
+    width: 134px;
+    height: 44px;
+    font-size: 16px;
+    margin-top: 45px;
+    text-align: center;
+    line-height: 44px;
+    border:  2px solid white;
+}
+
+.join:hover{
+    color: black;
+    z-index: 1;
+}
+
+.join::before{
+    content: "";
+    position: absolute;
+    left: 0px;
+    width: 0px;
+    height: 45px;
+    background-color: #fff;
+    transition: all 0.25s;
+}
+
+.join:hover:before{
+    width: 135px;
+    z-index: -1;
+}
+
