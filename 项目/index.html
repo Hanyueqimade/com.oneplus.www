@@ -7,25 +7,73 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 
-
+    <script src="./js/iconfont.js"></script>
     <link rel="stylesheet" href="./lib/reset.css">
     <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./css/index.css">
+    <style>
+        .icon {
+            width: 1em;
+            height: 1em;
+            vertical-align: -0.15em;
+            fill: currentColor;
+            overflow: hidden;
+        }
+    </style>
 </head>
 
 <body>
     <div class="top1">
         <div class=" container">
             <div class="top1-left">
-                <a href="#"><span style="color: #eb0028;font-size: 40px;;font-size: ;" class="ico ico-brand" </a> </div>
-                        <div class="top1-center">
-                        <a href="#">7T 系列 <i class="new">New</i></a>
-                        <a href="#">7 系列</a>
-                        <a href="#">商城</a>
-                        <a href="#">品牌</a>
-                        <a href="#">服务</a>
-                        <a href="#">论坛</a>
-                        <a href="#">零售店</a>
+                <a href="#">
+                    <span style="color: #eb0028;font-size: 40px;" class="ico ico-brand"></span>
+                </a>
+            </div>
+            <div class="top1-center">
+                <a class="top1-center-first" href="#">7T 系列 <i class="new">New</i>
+                </a>
+                <div class="top1-center-hover">
+                    <ul>
+                        <li>
+                            <i class="ico ico-head-oneplus-7"></i>
+                            <p>OnePlus 7T</p>
+                        </li>
+                        <li>
+                            <i class="ico ico-head-oneplus-7pro"></i>
+                            <p>OnePlus 7TPro</p>
+                        </li>
+                        <li>
+                            <i class="ico ico-head-oneplus-7pro"></i>
+                            <p>OnePlus 7T <br>迈凯伦限定版 </p>
+                        </li>
+                    </ul>
+                </div>
+                <a class="top1-center-second" href="#">7 系列
+                    <div class="top1-center-hover-1">
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <i class="ico ico-head-oneplus-7pro"></i>
+                                    <p>OnePlus 7 Pro</p>
+                                </a>
+
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="ico ico-head-oneplus-7pro"></i>
+                                    <p>OnePlus 7</p>
+                                </a>
+
+                            </li>
+                        </ul>
+                    </div>
+                </a>
+                <a href="#">商城</a>
+                <a href="#">品牌</a>
+                <a href="#">服务</a>
+                <a href="#">论坛</a>
+                <a href="#">零售店</a>
             </div>
             <div class="top1-right">
                 <a href=""><span style="font-size: 40px;" class="ico ico-user_v2"></span></a>
@@ -93,13 +141,142 @@
     <a href="">
         <div class="shot">
             <div class="shot-content">
-               <p>Shot on OnePlus</p> 
-               <div class="join">
-                   <span>我要参加</span>
-               </div>
+                <p>Shot on OnePlus</p>
+                <div class="join">
+                    <span>我要参加</span>
+                </div>
             </div>
         </div>
     </a>
+    <div class="about">
+        <div class="container">
+            <div>
+                <a href="">
+                    <img src="./upload/oneplus-first-9.jpg" alt="">
+                </a>
+                <p>媒体</p>
+                <h1>OnePlus 7T 系列获全球多家媒体好评</h1>
+                <a href="">了解更多</a>
+            </div>
+            <div>
+                <a href="">
+                    <img src="./upload/oneplus-first-10.jpg" alt="">
+                </a>
+                <p>故事</p>
+                <h1>「美无边界 动则有灵」OnePlus 壁纸背后的 <br> 故事</h1>
+                <a href="">了解更多</a>
+            </div>
+            <div style="    margin-right: 0px;" href="">
+                <a href="">
+                    <img src="./upload/oneplus-first-11.jpg" alt="">
+                </a>
+                <p>报告</p>
+                <h1>「旦用难回」OnePlus 90Hz 实验报告首发</h1>
+                <a href="">了解更多</a>
+            </div>
+        </div>
+    </div>
+    <div class="ast">
+        <div class="container">
+            <a href="">
+
+                <span>七天无理由退货</span>
+            </a>
+            <a href="">
+
+                <span>15天退货保障</span>
+            </a>
+            <a href="">
+
+                <span>30天换货保障</span>
+            </a>
+            <a href="">
+
+                <span>99元全场包邮</span>
+            </a>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="footer-all">
+                <dl>
+                    <dt>一加产品</dt>
+                    <dd><a href="">OnePlus 7T Pro</a></dd>
+                    <dd><a href="">OnePlus 7T</a></dd>
+                    <dd><a href="">OnePlus 7 Pro</a></dd>
+                    <dd><a href="">OnePlus 7</a></dd>
+                    <dd><a href="">OnePlus 6T</a></dd>
+                    <dd><a href="">OnePlus 6</a></dd>
+                </dl>
+                <dl>
+                    <dt>热门活动</dt>
+                    <dd><a href="">推荐有礼</a></dd>
+                    <dd><a href="">以旧换新</a></dd>
+                    <dd><a href="">Shot on OnePlus</a></dd>
+                    <dd><a href="">邀请码购买</a></dd>
+                    <dd><a href="">教育优惠</a></dd>
+                </dl>
+                <dl>
+                    <dt>关于一加</dt>
+                    <dd><a href="">了解一加</a></dd>
+                    <dd><a href="">加入一加</a></dd>
+                    <dd><a href="">H2OS</a></dd>
+                    <dd><a href="">云服务</a></dd>
+                    <dd><a href="">预置应用公示</a></dd>
+                </dl>
+                <dl>
+                    <dt>服务支持</dt>
+                    <dd><a href="">购买帮助</a></dd>
+                    <dd><a href="">用户手册</a></dd>
+                    <dd><a href="">寄修服务</a></dd>
+                    <dd><a href="">服务中心</a></dd>
+                    <dd><a href="">联系我们</a></dd>
+                </dl>
+                <div class="footer-right">
+                    <a href=""> <i class="ico ico-call_v2"></i>400-888-1111</a>
+                    <a href="">
+                        <div>在线客服</div>
+                    </a>
+                    <p>周一至周日 9:00 - 22:00</p>
+                    <i><img src="./img/wechat.png" alt="">
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-weibo"></use>
+                        </svg>
+                    </i>
+                </div>
+            </div>
+            <div class="footer-one">
+                <img src="./img/China.png" alt=""> 中国大陆( 简体中文/CNY )
+                <div>
+                    <p>更多选购方式，请<a href="">&nbsp;查找零售店&nbsp;</a>或<a href="">&nbsp;一加微信官方商城</a></p>
+                </div>
+            </div>
+            <div class="footer-two">
+                <div class="footer-two-left">
+                    <p>© 2013-2019 OnePlus. All Rights Reserved.</p>
+                    <p>粤ICP备<a href="">13080605</a>号-4|备案主体编号:44201910955995</p>
+                    <a href=""><img src="./img/badge.png" alt="">粤公网安备 44030402001407号</a>
+                </div>
+                <div class="footer-two-right">
+                    <a href="">隐私政策</a>
+                    <span>|</span>
+                    <a href="">用户协议</a>
+                    <span>|</span>
+                    <a href="">竞赛规则</a>
+                    <span>|</span>
+                    <a href="">知识产权政策</a>
+                    <span>|</span>
+                    <a href="">安全问题反馈</a>
+                    <span>|</span>
+                    <a href="">站点地图</a>
+                    <div>
+                        <img src="./img/lience.png" alt="">
+                        <img src="./img/cnnic.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
