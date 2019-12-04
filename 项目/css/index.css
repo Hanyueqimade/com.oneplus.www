@@ -5,9 +5,12 @@
 }
 
 .new {
+    display: inline-block;
     border: 1px solid #000;
     border-radius: 5px;
     font-size: 10px;
+    line-height: 1;
+    transform: scale(0.8);
 }
 
 .top1-left{
@@ -24,14 +27,21 @@
     position: relative;
 } 
 
-.top1-center-first:hover::before{
+.top1-center-first:before{
     content: "";
     position: absolute;
-    bottom: -1px;
+    bottom: 1px;
     left: -25px;
     width: 120px;
-    border: 2px solid red;
+    border: 1px solid red;
+    transition: all 0.4s;
+    opacity: 0;
 }
+
+.top1-center-first:hover:before {
+    opacity: 1;
+}
+
 .top1-center-hover{
     position: absolute;
     display: none;
@@ -40,28 +50,36 @@
     line-height: 22px;
     text-align: center;
     top: 59px;
-    left: 0px;
+    left: -652px;
+    border-top: 1px solid #dfdfdf;
     background-color: #ffffff;
     z-index:1;
 }
 
-.top1-center-first:hover + .top1-center-hover,
+.top1-center-first:hover .top1-center-hover,
 .top1-center-hover:hover{
     display: block;
 }
 
-.top1-center-hover li{
+
+.top1-center-hover a,
+.top1-center-hover-1 a,
+.top1-center-hover-2 a{
 display: inline-block;
 margin-right: 69px;
 vertical-align: top;
 margin-top: 45px;
 }
 
-.top1-center-hover li:hover{
+.top1-center-hover a:hover,
+.top1-center-hover-1 a:hover,
+.top1-center-hover-2 a:hover{
     color: #eb0028;
 }
 
-.top1-center-hover li i{
+.top1-center-hover li i,
+.top1-center-hover-1 li i,
+.top1-center-hover-2 li i{
     font-size: 26px;
 }
 
@@ -72,11 +90,11 @@ margin-top: 45px;
     float: left;
 }
 
-.top1-center a{
+.top1-center div{
     float: left;
     font-size: 14px;
     color: #000000;
-    margin-right: 40px;
+    padding-right: 40px;
 }
 
 .top1-center a i{
@@ -87,52 +105,270 @@ margin-top: 45px;
     position: relative;
 }
 
-.top1-center-second:hover::before{
+.top1-center-second:before{
     content: "";
     position: absolute;
-    bottom: -2px;
+    bottom: 1px;
     left: -20px;
-    width: 76px;
-    border: 2px solid red;
+    width: 70px;
+    border: 1px solid red;
+    transition: all 0.4s;
+    opacity: 0;
+}
+
+.top1-center-second:hover:before {
+    opacity: 1;
 }
 
 .top1-center-hover-1{
     position: absolute;
     display: none;
     width: 1903px;
-    height: 155px;
+    height: 130px;
     line-height: 22px;
     text-align: center;
     top: 59px;
     left: -779px;
+    border-top: 1px solid #dfdfdf;
     background-color: #ffffff;
     z-index: 2;
 }
 
-
-.top1-center-second:hover .top1-center-hover-1{
+.top1-center-second:hover .top1-center-hover-1,
+.top1-center-hover-1:hover{
     display: block;
 }
 
-.top1-center-hover-1 li{
-display: inline-block;
-margin-right: 69px;
-vertical-align: top;
-margin-top: 45px;
+
+.top1-center-thirth {
+    position: relative;
 }
 
-.top1-center-hover-1 li:hover{
-    color: #eb0028;
+.top1-center-thirth:before{
+    content: "";
+    position: absolute;
+    bottom: 1px;
+    left: -20px;
+    width: 63px;
+    border: 1px solid red;
+    transition: all 0.2s;
+    opacity: 0;
 }
 
-.top1-center-hover-1 li i{
-    font-size: 26px;
+.top1-center-thirth:hover:before{
+    opacity: 1;
 }
+
+.top1-center-hover-2{
+    position: absolute;
+    display: none;
+    width: 1903px;
+    height: 130px;
+    line-height: 22px;
+    text-align: center;
+    top: 59px;
+    left: -859px;
+    border-top: 1px solid #dfdfdf;
+    background-color: #ffffff;
+    z-index: 2;
+}
+
+.top1-center-thirth:hover .top1-center-hover-2,
+.top1-center-hover-2:hover{
+    display: block;
+}
+
+.top1-center-fouth {
+    position: relative;
+}
+
+.top1-center-fouth:before{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: -20px;
+    width: 65px;
+    border: 1px solid red;
+    transition: all 0.2s;
+    opacity: 0;
+} 
+
+.top1-center-fouth:hover:before{
+    opacity: 1;
+}
+
+.top1-center-fifth {
+    position: relative;
+}
+
+.top1-center-fifth:before{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: -20px;
+    width: 77px;
+    border: 1px solid red;
+    transition: all 0.2s;
+    opacity: 0;
+} 
+
+.top1-center-fifth:hover:before{
+    opacity: 1;
+}
+
+
+
+
 
 .top1-right{
 float: right;
 line-height: 60px;
 }
+
+.top1-right-first,
+.top1-right-second,
+.top1-right-thirth{
+    position: relative;
+    display: inline-block;
+}
+
+.top1-right-first::before,
+.top1-right-second::before,
+.top1-right-thirth::before{
+    content: "";
+    position: absolute;
+    bottom:5px;
+    left: 12px;
+    width: 60px;
+    border: 1px solid red;
+    transition: all 0.2s;
+    opacity: 0;
+} 
+
+.top1-right-first:hover::before,
+.top1-right-second:hover::before,
+.top1-right-thirth:hover::before{
+    opacity: 1;
+}
+
+
+.top1-right-hover-1{
+    position: absolute;
+    display: none;
+    width: 320px;
+    height: 276px;
+    line-height: 22px;
+    text-align: left;
+    top: 59px;
+    left: -187px;
+    border-top: 1px solid #dfdfdf;
+    background-color: #ffffff;
+    z-index: 2;
+}
+
+.top1-right-first:hover .top1-right-hover-1,
+.top1-right-hover-1:hover{
+    display: block;
+}
+
+.top1-right-hover-1 ul{
+    margin:0 20px;
+    margin-top: 20px;
+    line-height: 4;
+    font-size: 13px;
+    height: 256px;
+   
+}
+
+.top1-right-hover-1 ul li{
+     color: #868a8a;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.top1-right-hover-1 ul li:hover{
+    color: #101920;
+}
+
+.top1-right-hover-1 a:nth-last-child(1) li{
+    color: #42a1ce;
+    margin: 20px 0px;
+    border: none;
+}
+
+.top1-right-hover-1 a:nth-last-child(1) li:hover{
+    text-decoration: underline;
+}
+
+
+.top1-right-hover-2{
+    position: absolute;
+    display: none;
+    overflow: hidden;
+    width: 400px;
+    height: 188px;
+    line-height: 22px;
+    text-align: center;
+    top: 60px;
+    left: -270px;
+    background-color: #ffffff;
+    border-top: 1px solid #dfdfdf;
+    z-index: 2;
+}
+
+.top1-right-second:hover .top1-right-hover-2,
+.top1-right-hover-2:hover{
+    display: block;
+}
+
+.top1-right-hover-one {
+    width: 100%;
+    font-size: 15px;
+    color: #b7b8b7;
+    border-bottom: 1px solid #dfdfdf;
+    margin-top: 55px;
+    padding-bottom: 30px;
+}
+
+.top1-right-hover-two{
+    position: relative;
+    display: block;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 360px;
+    height: 40px;
+    line-height: 40px;
+    color: white;
+    font-size: 14px;
+    background-color: #eb0028;
+    text-align: center;
+}
+
+.top1-right-hover-two:hover{
+    color: white;
+}
+
+.top1-right-hover-two::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: rgba(158, 4, 4, 0.4);
+    transition: all 0.5s;
+}
+
+.top1-right-hover-two::after{
+    content: "去购物";
+    position: relative;
+    z-index: 3;
+}
+
+.top1-right-hover-two:hover::before{
+    width: 360px;
+
+}
+
 
 .top1-right span{
     font-size: 22px;
@@ -609,6 +845,7 @@ height: 294px;
 
 .footer-right div {
     float: right;
+    position: relative;
     text-align: center;
     line-height: 40px;
     font-size: 16px;
@@ -616,6 +853,29 @@ height: 294px;
     height: 40px;
     border: 1px solid ;
     margin: 20px 0px;
+}
+
+.footer-right div:hover{
+    color: white;
+    z-index: 1;
+}
+
+
+.footer-right div::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0px;
+    height: 100%;
+    background-color:#000000;
+    transition: all 0.25s;
+}
+
+
+.footer-right div:hover::before{
+      width: 120px;
+      z-index: -1;
 }
 
 .footer-right p{
@@ -710,4 +970,23 @@ height: 294px;
 .footer-two-right div img{
     height: 30px;
     margin-left: 20px;
+}
+
+.footer-finish {
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+}
+
+.footer-finish img{
+width: 70px;
+}
+
+.footer-finish button{
+    border: none;
+    background-color: #fff;
+}
+
+.footer-finish button:active{
+    
 }
