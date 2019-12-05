@@ -377,416 +377,185 @@ line-height: 60px;
     margin-left:17px;
 }
 
-.oneplus-family {
-    position: relative;
+
+
+
+
+
+.center {
     width: 1903px;
-    height: 300px;
-    background-image: url(../img/oneplus-first-1.jpg);
-    background-position: -315px 0;
+    height: 630px;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #e2e2e2;
 }
 
-
-
-.oneplus-family-content {
-    position: absolute;
-    left: 476px;
-    top: 50px;
-    width:500px;
-    height: 200px;
+.center-content{
+    width: 350px;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 20px 100px;
+    box-sizing: border-box;
 }
 
-.oneplus-family-content h3{
-    color: white;
-    font-size: 30px;
-    line-height: 2.4;
-}
-
-.oneplus-family-content p{
-        margin-bottom: 40px;
-    color: white;
-    font-size: 16px;
-    line-height: 1.5;
-    font-weight: bold;
-}
-
-.oneplus-family-content a span {
-    display: inline-block;
-    color: white;
-    font-size: 15px;
-}
-
-.oneplus-family-content a span:hover {
-    text-decoration: underline;
-}
-
-.oneplus-7T {
-    position: relative;
-    width: 1903px;
-    height: 680px;
-    margin-top: 10px;
-    background-image: url(../upload/oneplus-first-2.jpg);
-        background-position: -315px 0;
-}
-
-.oneplus-7T-content {
-    position: absolute;
-    left: 476px;
-    top: 50%;
-    width:500px;
-    height: 264px;
-    margin-top: -132px;
-}
-
-.oneplus-7T-content h3{
-    color: #000000;
-    font-size: 48px;
-}
-
-.oneplus-7T-content p:nth-child(2){
-    color: #000000  ;
+.center-content h2{
     font-size: 24px;
-    line-height: 1.5;
+    font-weight: 500;
+    margin-bottom: 40px;
+    box-sizing: border-box;
 }
 
-.oneplus-7T-content p:nth-child(3){
-    color: #000000  ;
-    font-size: 18px;
-    font-weight: 333;
-    line-height: 1.5;
-}
-
-.oneplus-7T-content-buy {
-    position: relative;
-    margin-top: 40px;
-    text-align: center;
-    width: 162px;
-    height: 50px;
-    line-height: 50px;
-    border: 1px solid #101920;
-}
-
-.oneplus-7T-content-buy:hover{
-    color: white;
-    z-index: 1;
-}
-
-.oneplus-7T-content-buy span {
-    font-size: 16px;
-}
-
-.oneplus-7T-content-buy:after {
-    content: "";
-    position: absolute;
-    left: 0;
-    height: 50px;
-    width: 0;   
-    background-color: #000000;
-    transition: all 0.25s;
-} 
-
-.oneplus-7T-content-buy:hover:after {
-    width: 162px;
-    z-index: -1;
-}
-
-.oneplus-7T-content-buy:hover::before{
-    color: white;
-}
-
-.oneplus-7T-content a:nth-last-child(1){
+.center-content input{
     display: block;
+    width: 100%;
+    height: 40px;
     font-size: 16px;
-    margin-top: 10px;
+    color: #999c9f;
+    padding-left: 25px;
+    border:1px solid #e5e5e5;
+    box-sizing: border-box;
+    margin-bottom: 15px;
 }
 
-.oneplus-7T-content a:nth-last-child(1):hover{
-    text-decoration: underline;
-}
-
-
-.oneplus-7T-limit {
+.input{
     position: relative;
-    width: 1903px;
-    height: 680px;
-    margin-top: 10px;
-    background-image: url(../upload/oneplus-first-3.jpg);
-        background-position: -315px 0;
 }
 
-.oneplus-7T-limit-content {
+.ico-hide-pwd {
     position: absolute;
-    left: 476px;
-    top: 50%;
-    width:500px;
-    height: 321px;
-    margin-top: -160.5px;
-}
-
-.oneplus-7T-limit-content h3{
-    color: white;
-    font-size: 48px;
-}
-
-.oneplus-7T-limit-content p:nth-child(2){
-    color: white  ;
-    font-size: 24px;
-    line-height: 1.5;
-}
-
-.oneplus-7T-limit-content p:nth-child(3){
-    color: white;
-    font-size: 18px;
-    font-weight: 333;
-    line-height: 3;
-}
-
-.oneplus-7T-limit-content-buy {
-    position: relative;
-    margin-top: 40px;
-    text-align: center;
-    width: 162px;
-    height: 50px;
-    line-height: 50px;
-    color: white;
-    border: 1px solid white;
-}
-
-.oneplus-7T-limit-content-buy:hover{
-    color: black;
-    z-index: 1;
-}
-
-.oneplus-7T-limit-content-buy span {
+    bottom: 8px;
+    right: 12px;
     font-size: 16px;
 }
 
-.oneplus-7T-limit-content-buy:after {
-    content: "";
-    position: absolute;
-    left: 0;
-    height: 50px;
-    width: 0;   
-    background-color: white;
-    transition: all 0.25s;
-} 
 
-.oneplus-7T-limit-content-buy:hover:after {
-    width: 162px;
-    z-index: -1;
+.center-content p{
+    width: 100%;
+    height: 40px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    line-height: 40px;
+    background-color: #e8e8e8;
 }
 
-.oneplus-7T-limit-content-buy:hover::before{
-    color: black;
-}
-
-.oneplus-7T-limit-content a:nth-last-child(1){
+.center-content>p span {
     display: block;
-    color: white;
-    font-size: 16px;
-    margin-top: 10px;
-}
-
-.oneplus-7T-limit-content a:nth-last-child(1):hover{
-    text-decoration: underline;
-}
-
-.as{
-    width:1903px;
-    height: 1020px;
-    overflow: hidden;
-}
-
-.as a{
-    display: inline-block;
-      overflow: hidden; 
-    width: 936.5px;
-    height: 500px;
-    margin: 5px;
-    background-position: -170px 0;
-}
-
-.as a:nth-child(1) {
-    background-image: url(../upload/oneplus-first-4.jpg);
-}
-.as a:nth-child(2) {
-    background-image: url(../upload/oneplus-first-5.jpg);
-}
-.as a:nth-child(3) {
-    background-image: url(../upload/oneplus-first-6.jpg);
-}
-.as a:nth-child(4) {
-    background-image: url(../upload/oneplus-first-7.jpg);
-}
-
-.as div {
-    text-align: center;
-    width: 915px;
-}
-
-.as-content-1 {
-    font-weight: bold;
-    margin-top: 30px;
-    font-size: 30px;
-} 
-
-.as-content-bottom {
-    font-weight: 549;
-    margin-top: 10px;
-    font-size: 20px;
-}
-
-.as-content-2 {
-    font-weight: bold;
-    margin-top: 30px;
-    font-size: 30px;
-    color: white;
-}
-
-.as-content-bottoms {
-    font-weight: 549;
-    margin-top: 10px;
-    font-size: 20px;
-    color: white;
-}
-
-.shot{
-    position: relative;
-    width: 100%;
-    height: 720px;
-    margin-top: 10px;
-    background-image: url(../upload/oneplus-first-8.jpg);
-}
-
-.shot-content {
-    position: absolute;
-    width: 100%;
-    height: 140px;
-    text-align: center;
-    top: 50%;
-    margin-bottom: -70px;
-    color: white;
-}
-
-.shot-content p{
-    color: white;
-    font-size: 48px;
-}
-
-.join {
-    position: relative;
-    margin: auto;
-    width: 134px;
-    height: 44px;
-    font-size: 16px;
-    margin-top: 45px;
-    text-align: center;
-    line-height: 44px;
-    border:  2px solid white;
-}
-
-.join:hover{
-    color: black;
-    z-index: 1;
-}
-
-.join::before{
-    content: "";
-    position: absolute;
-    left: 0px;
-    width: 0px;
-    height: 45px;
-    background-color: #fff;
-    transition: all 0.25s;
-}
-
-.join:hover:before{
-    width: 135px;
-    z-index: -1;
-}
-
-.about {
-    width: 100%;
-    height: 600px;
-    background-color: #f6f6f6;
-    margin-top: 10px;
-    overflow: hidden;
-}
-
-.about .container{
-     margin-top: 110.5px;
-     height: 370px;
-}
-
-.about .container a img{
-    width: 360px;
-    height: 224px;
-
-}
-
-.about .container div {
     float: left;
-    margin-right: 60px;
-}
-
-.about .container p{
-    margin: 20px 0px 10px 0px;
-    color: #626262;
-    font-size: 16px ;
-}
-
-.about .container h1{
-    font-size: 18px;
-    margin-bottom: 20px;
-    line-height: 1.5;
-}
-
-.about .container a:nth-child(4){
-color: #1ba3d1;
-font-size: 16px;
-}
-
-.ast .container {
-    height: 160px;
-}
-
-.ast {
-    height: 160px;
-    width: 100%;
-    border-top: 1px solid #e4e4e4;
-    border-bottom: 1px solid #e4e4e4;
-    box-sizing: border-box;
-}
-
-.ast a{
-    display: inline-block;
-    overflow: hidden;
-    height: 160px;
-    width: 297px;
-    line-height: 160px;
+    width: 40px;
+    height: 100%;
+    line-height: 40px;
     text-align: center;
-    background-repeat: no-repeat;
-    background-position: 125px 50px;
-}
-
-.ast span {
-    display: block;
-    padding-top: 40px;
-    font-size: 16px;
-    color: #565b62;
+    border: 1px solid #cccccc;
     box-sizing: border-box;
+    font-size: 16px;
+    background-color: #ffffff;
+    color: #e5e5e5;
 }
 
-.ast a:nth-child(1) {
-    background-image: url(../img/as-01.svg);
+.Sign {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    color: white;
+    font-size: 14px;
+    background-color: #eb0028;
+    text-align: center;
 }
-.ast a:nth-child(2) {
-    background-image: url(../img/as-02.svg);
+
+.Sign::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: rgba(158, 4, 4, 0.4);
+    transition: all 0.5s;
 }
-.ast a:nth-child(3) {
-    background-image: url(../img/as-03.svg);
+
+.Sign:hover::before{
+    width: 100%;
 }
-.ast a:nth-child(4) {
-    background-image: url(../img/as-04.svg);
+
+.Sign::after {
+    content: "登录";
+    position: relative;
+    color: white;
+    z-index: 3;
+}
+
+.Sv{
+    width: 100%;
+    text-align: center;
+    margin: 40px 0px;
+}
+
+.Sv a{
+    color: #409ecc;
+    font-size: 14px;
+}
+
+    .Sv a:hover{
+        text-decoration: underline;
+    }
+
+.Sv span {
+    display: inline-block;
+    margin: 0px 15px;
+    color: #dfdfdf;
+    font-size: 14px;
+}
+
+.other {
+    position: relative;
+}
+
+.other::before {
+    content: "";
+    position: absolute;
+    top: 6px;
+    left: -106px;
+    width: 88px;
+    border: 1px solid #ededed;
+}
+
+.other-icon{
+    margin-top: 20px;
+}
+
+.other-icon a{
+    display: inline-block;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    font-size: 40px;
+    color: white;
+}
+
+.other-icon a:nth-child(1){
+    background-color: red;
+}
+
+.other-icon a:nth-child(2){
+    background-color: #12b7f5;
+    margin: 0px 25px;
+}
+
+.other-icon a:nth-child(3) {
+    background-color: #1aad19;
+}
+
+.other::after {
+    content: "";
+    position: absolute;
+    top: 6px;
+    left: 108px;
+    width: 88px;
+    border: 1px solid #ededed;
 }
 
 .footer {
@@ -882,7 +651,6 @@ height: 294px;
     float: right;
     color: #b6b7b6;
 }
-
 .footer-right>i {
     text-align: right;
     margin-top: 10px;
@@ -920,7 +688,6 @@ height: 294px;
 .footer-right>i a:nth-child(1):hover .two{
     display: block;
 }
-
 .footer-right>i svg {
     vertical-align: middle;
     width: 40px;
@@ -1001,70 +768,4 @@ height: 294px;
 
 .footer-finish img{
 width: 70px;
-}
-
-.footer-finish button{
-    border: none;
-    background-color: transparent;
-}
-
-
-
-.footer-finish-other{
-    position: fixed;
-    display: none;
-    left: 50%;
-    top: 50%;
-    margin-top:-243px ;
-    margin-left: -300px;
-    width: 600px;
-    height: 486px;
-}
-
-
-.footer-finish-other button {
-    position: absolute;
-    font-size: 20px;
-    top: 10px;
-    right: 10px;
-}
-
-.footer-finish-other-top {
-    height: 180px;
-    width: 100%;
-    background-image: url(../img/bg-pc.jpg);
-    padding-top: 60px;
-    padding-left: 60px;
-    box-sizing: border-box;
-}
-
-.footer-finish-other-top h2{
-    font-size: 22px;
-    margin-bottom: 25px;
-
-}
-
-.footer-finish-other-top p{
-    font-size: 16px;
-    font-weight: bold;
-
-}
-
-.footer-finish-other-bottom {
-    height: 306px;
-    width: 100%;
-    background-color: #fff;
-    text-align: center;
-}
-
-.footer-finish-other-bottom img {
-    width: 225px;
-    height: 225px;
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
-
-.footer-finish-other-bottom p{
-    font-size: 14px;
-    color: #b4b4b4;
 }

@@ -52,6 +52,7 @@
     top: 59px;
     left: -652px;
     border-top: 1px solid #dfdfdf;
+    box-shadow: 0px 6px 10px #dfdfdf;
     background-color: #ffffff;
     z-index:1;
 }
@@ -131,6 +132,7 @@ margin-top: 45px;
     left: -779px;
     border-top: 1px solid #dfdfdf;
     background-color: #ffffff;
+    box-shadow: 0px 6px 10px #dfdfdf;
     z-index: 2;
 }
 
@@ -170,6 +172,7 @@ margin-top: 45px;
     left: -859px;
     border-top: 1px solid #dfdfdf;
     background-color: #ffffff;
+    box-shadow: 0px 6px 10px #dfdfdf;
     z-index: 2;
 }
 
@@ -216,13 +219,11 @@ margin-top: 45px;
     opacity: 1;
 }
 
-
-
-
-
 .top1-right{
-float: right;
-line-height: 60px;
+    float: right;
+    height: 60px;
+    padding: 10px 0px 0 0;
+    box-sizing: border-box;
 }
 
 .top1-right-first,
@@ -262,6 +263,7 @@ line-height: 60px;
     top: 59px;
     left: -187px;
     border-top: 1px solid #dfdfdf;
+    box-shadow: 0px 6px 10px #dfdfdf;
     background-color: #ffffff;
     z-index: 2;
 }
@@ -311,6 +313,7 @@ line-height: 60px;
     top: 60px;
     left: -270px;
     background-color: #ffffff;
+        box-shadow: 0px 6px 10px #dfdfdf;
     border-top: 1px solid #dfdfdf;
     z-index: 2;
 }
@@ -377,373 +380,112 @@ line-height: 60px;
     margin-left:17px;
 }
 
-.oneplus-family {
+.Sign {
     position: relative;
-    width: 1903px;
-    height: 300px;
-    background-image: url(../img/oneplus-first-1.jpg);
-    background-position: -315px 0;
-}
-
-
-
-.oneplus-family-content {
-    position: absolute;
-    left: 476px;
-    top: 50px;
-    width:500px;
-    height: 200px;
-}
-
-.oneplus-family-content h3{
+    display: block;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
     color: white;
-    font-size: 30px;
-    line-height: 2.4;
-}
-
-.oneplus-family-content p{
-        margin-bottom: 40px;
-    color: white;
-    font-size: 16px;
-    line-height: 1.5;
-    font-weight: bold;
-}
-
-.oneplus-family-content a span {
-    display: inline-block;
-    color: white;
-    font-size: 15px;
-}
-
-.oneplus-family-content a span:hover {
-    text-decoration: underline;
-}
-
-.oneplus-7T {
-    position: relative;
-    width: 1903px;
-    height: 680px;
-    margin-top: 10px;
-    background-image: url(../upload/oneplus-first-2.jpg);
-        background-position: -315px 0;
-}
-
-.oneplus-7T-content {
-    position: absolute;
-    left: 476px;
-    top: 50%;
-    width:500px;
-    height: 264px;
-    margin-top: -132px;
-}
-
-.oneplus-7T-content h3{
-    color: #000000;
-    font-size: 48px;
-}
-
-.oneplus-7T-content p:nth-child(2){
-    color: #000000  ;
-    font-size: 24px;
-    line-height: 1.5;
-}
-
-.oneplus-7T-content p:nth-child(3){
-    color: #000000  ;
-    font-size: 18px;
-    font-weight: 333;
-    line-height: 1.5;
-}
-
-.oneplus-7T-content-buy {
-    position: relative;
-    margin-top: 40px;
+    font-size: 14px;
+    background-color: #eb0028;
     text-align: center;
-    width: 162px;
-    height: 50px;
-    line-height: 50px;
-    border: 1px solid #101920;
 }
 
-.oneplus-7T-content-buy:hover{
-    color: white;
-    z-index: 1;
-}
-
-.oneplus-7T-content-buy span {
-    font-size: 16px;
-}
-
-.oneplus-7T-content-buy:after {
+.Sign::before {
     content: "";
     position: absolute;
     left: 0;
-    height: 50px;
-    width: 0;   
-    background-color: #000000;
-    transition: all 0.25s;
-} 
-
-.oneplus-7T-content-buy:hover:after {
-    width: 162px;
-    z-index: -1;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: rgba(158, 4, 4, 0.4);
+    transition: all 0.5s;
 }
 
-.oneplus-7T-content-buy:hover::before{
-    color: white;
+.Sign:hover::before{
+    width: 100%;
 }
 
-.oneplus-7T-content a:nth-last-child(1){
-    display: block;
-    font-size: 16px;
-    margin-top: 10px;
-}
-
-.oneplus-7T-content a:nth-last-child(1):hover{
-    text-decoration: underline;
-}
-
-
-.oneplus-7T-limit {
+.Sign::after {
+    content: "登录";
     position: relative;
-    width: 1903px;
-    height: 680px;
-    margin-top: 10px;
-    background-image: url(../upload/oneplus-first-3.jpg);
-        background-position: -315px 0;
-}
-
-.oneplus-7T-limit-content {
-    position: absolute;
-    left: 476px;
-    top: 50%;
-    width:500px;
-    height: 321px;
-    margin-top: -160.5px;
-}
-
-.oneplus-7T-limit-content h3{
     color: white;
-    font-size: 48px;
+    z-index: 3;
 }
 
-.oneplus-7T-limit-content p:nth-child(2){
-    color: white  ;
-    font-size: 24px;
-    line-height: 1.5;
-}
-
-.oneplus-7T-limit-content p:nth-child(3){
-    color: white;
-    font-size: 18px;
-    font-weight: 333;
-    line-height: 3;
-}
-
-.oneplus-7T-limit-content-buy {
-    position: relative;
-    margin-top: 40px;
+.Sv{
+    width: 100%;
     text-align: center;
-    width: 162px;
-    height: 50px;
-    line-height: 50px;
-    color: white;
-    border: 1px solid white;
+    margin: 40px 0px;
 }
 
-.oneplus-7T-limit-content-buy:hover{
-    color: black;
-    z-index: 1;
+.Sv a{
+    color: #409ecc;
+    font-size: 14px;
 }
 
-.oneplus-7T-limit-content-buy span {
-    font-size: 16px;
-}
+    .Sv a:hover{
+        text-decoration: underline;
+    }
 
-.oneplus-7T-limit-content-buy:after {
-    content: "";
-    position: absolute;
-    left: 0;
-    height: 50px;
-    width: 0;   
-    background-color: white;
-    transition: all 0.25s;
-} 
-
-.oneplus-7T-limit-content-buy:hover:after {
-    width: 162px;
-    z-index: -1;
-}
-
-.oneplus-7T-limit-content-buy:hover::before{
-    color: black;
-}
-
-.oneplus-7T-limit-content a:nth-last-child(1){
-    display: block;
-    color: white;
-    font-size: 16px;
-    margin-top: 10px;
-}
-
-.oneplus-7T-limit-content a:nth-last-child(1):hover{
-    text-decoration: underline;
-}
-
-.as{
-    width:1903px;
-    height: 1020px;
-    overflow: hidden;
-}
-
-.as a{
+.Sv span {
     display: inline-block;
-      overflow: hidden; 
-    width: 936.5px;
-    height: 500px;
-    margin: 5px;
-    background-position: -170px 0;
+    margin: 0px 15px;
+    color: #dfdfdf;
+    font-size: 14px;
 }
 
-.as a:nth-child(1) {
-    background-image: url(../upload/oneplus-first-4.jpg);
-}
-.as a:nth-child(2) {
-    background-image: url(../upload/oneplus-first-5.jpg);
-}
-.as a:nth-child(3) {
-    background-image: url(../upload/oneplus-first-6.jpg);
-}
-.as a:nth-child(4) {
-    background-image: url(../upload/oneplus-first-7.jpg);
-}
-
-.as div {
-    text-align: center;
-    width: 915px;
-}
-
-.as-content-1 {
-    font-weight: bold;
-    margin-top: 30px;
-    font-size: 30px;
-} 
-
-.as-content-bottom {
-    font-weight: 549;
-    margin-top: 10px;
-    font-size: 20px;
-}
-
-.as-content-2 {
-    font-weight: bold;
-    margin-top: 30px;
-    font-size: 30px;
-    color: white;
-}
-
-.as-content-bottoms {
-    font-weight: 549;
-    margin-top: 10px;
-    font-size: 20px;
-    color: white;
-}
-
-.shot{
+.other {
     position: relative;
-    width: 100%;
-    height: 720px;
-    margin-top: 10px;
-    background-image: url(../upload/oneplus-first-8.jpg);
 }
 
-.shot-content {
-    position: absolute;
-    width: 100%;
-    height: 140px;
-    text-align: center;
-    top: 50%;
-    margin-bottom: -70px;
-    color: white;
-}
-
-.shot-content p{
-    color: white;
-    font-size: 48px;
-}
-
-.join {
-    position: relative;
-    margin: auto;
-    width: 134px;
-    height: 44px;
-    font-size: 16px;
-    margin-top: 45px;
-    text-align: center;
-    line-height: 44px;
-    border:  2px solid white;
-}
-
-.join:hover{
-    color: black;
-    z-index: 1;
-}
-
-.join::before{
+.other::before {
     content: "";
     position: absolute;
-    left: 0px;
-    width: 0px;
-    height: 45px;
-    background-color: #fff;
-    transition: all 0.25s;
+    top: 6px;
+    left: -106px;
+    width: 88px;
+    border: 1px solid #ededed;
 }
 
-.join:hover:before{
-    width: 135px;
-    z-index: -1;
+.other-icon{
+    margin-top: 20px;
 }
 
-.about {
-    width: 100%;
-    height: 600px;
-    background-color: #f6f6f6;
-    margin-top: 10px;
-    overflow: hidden;
+.other-icon a{
+    display: inline-block;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    font-size: 40px;
+    color: white;
 }
 
-.about .container{
-     margin-top: 110.5px;
-     height: 370px;
+.other-icon a:nth-child(1){
+    background-color: red;
 }
 
-.about .container a img{
-    width: 360px;
-    height: 224px;
-
+.other-icon a:nth-child(2){
+    background-color: #12b7f5;
+    margin: 0px 25px;
 }
 
-.about .container div {
-    float: left;
-    margin-right: 60px;
+.other-icon a:nth-child(3) {
+    background-color: #1aad19;
 }
 
-.about .container p{
-    margin: 20px 0px 10px 0px;
-    color: #626262;
-    font-size: 16px ;
+.other::after {
+    content: "";
+    position: absolute;
+    top: 6px;
+    left: 108px;
+    width: 88px;
+    border: 1px solid #ededed;
 }
 
-.about .container h1{
-    font-size: 18px;
-    margin-bottom: 20px;
-    line-height: 1.5;
-}
-
-.about .container a:nth-child(4){
-color: #1ba3d1;
-font-size: 16px;
-}
 
 .ast .container {
     height: 160px;
@@ -788,6 +530,130 @@ font-size: 16px;
 .ast a:nth-child(4) {
     background-image: url(../img/as-04.svg);
 }
+
+
+.shopping-center{
+    overflow: hidden;
+    width: 1903px;
+    height: 1138px;
+    background-color: #efefef;
+}
+
+.shopping-center-content-top {
+    overflow: hidden;
+    width: 100%;
+    height: 450px;
+    text-align: center;
+    background-color: #fff;
+    margin-top:60px ;
+}
+
+.ico-shipping-cart-empty{
+    font-size: 120px;
+    color:#e6e6e6 ;
+}
+
+.shopping-center-content-top i{
+    display: block;
+    margin: 60px 0px 20px 0px;
+}
+
+.shopping-center-content-top P{
+    font-size: 16px;
+    color: #828282;
+}
+
+.Sign {
+    position: relative;
+    margin: auto;
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    color: white;
+    font-size: 14px;
+    background-color: #eb0028;
+    text-align: center;
+}
+
+.Sign::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: rgba(158, 4, 4, 0.4);
+    transition: all 0.5s;
+}
+
+.Sign:hover::before{
+    width: 100%;
+}
+
+.Sign::after {
+    content: "登录";
+    position: relative;
+    color: white;
+    z-index: 3;
+}
+
+.shopping-center-content-top a:nth-child(4){
+    font-size: 16px;
+    color: #0099cc;
+}
+
+.shopping-center-content-top a:nth-child(4):hover{
+    color: red;
+}
+
+.container>h2{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 70px;
+    color: #828282;
+    font-weight: 400;
+}
+
+.shopping-center-content-bottom{
+    margin-top: 40px;
+}
+
+.shopping-center-content-bottom img{
+    width: 289.19px;
+    height: 289.19px;
+}
+
+.shopping-center-content-bottom div{
+    float: left;
+    height: 441.19px;
+    text-align: center;
+    background-color: #fff;
+    margin-right: 14.391px;
+}
+
+.shopping-center-content-bottom div:nth-child(4){
+    margin-right: 0px;
+}
+
+.shopping-center-content-bottom div p{
+    color: #8a8c9a;
+    font-size: 16px;
+}
+
+.shopping-center-content-bottom p:nth-child(3){
+    margin: 15px 0px;
+}
+
+
+
+
+
+
+
 
 .footer {
     height: 570px;
@@ -882,7 +748,6 @@ height: 294px;
     float: right;
     color: #b6b7b6;
 }
-
 .footer-right>i {
     text-align: right;
     margin-top: 10px;
@@ -920,7 +785,6 @@ height: 294px;
 .footer-right>i a:nth-child(1):hover .two{
     display: block;
 }
-
 .footer-right>i svg {
     vertical-align: middle;
     width: 40px;
@@ -1001,70 +865,4 @@ height: 294px;
 
 .footer-finish img{
 width: 70px;
-}
-
-.footer-finish button{
-    border: none;
-    background-color: transparent;
-}
-
-
-
-.footer-finish-other{
-    position: fixed;
-    display: none;
-    left: 50%;
-    top: 50%;
-    margin-top:-243px ;
-    margin-left: -300px;
-    width: 600px;
-    height: 486px;
-}
-
-
-.footer-finish-other button {
-    position: absolute;
-    font-size: 20px;
-    top: 10px;
-    right: 10px;
-}
-
-.footer-finish-other-top {
-    height: 180px;
-    width: 100%;
-    background-image: url(../img/bg-pc.jpg);
-    padding-top: 60px;
-    padding-left: 60px;
-    box-sizing: border-box;
-}
-
-.footer-finish-other-top h2{
-    font-size: 22px;
-    margin-bottom: 25px;
-
-}
-
-.footer-finish-other-top p{
-    font-size: 16px;
-    font-weight: bold;
-
-}
-
-.footer-finish-other-bottom {
-    height: 306px;
-    width: 100%;
-    background-color: #fff;
-    text-align: center;
-}
-
-.footer-finish-other-bottom img {
-    width: 225px;
-    height: 225px;
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
-
-.footer-finish-other-bottom p{
-    font-size: 14px;
-    color: #b4b4b4;
 }
