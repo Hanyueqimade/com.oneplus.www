@@ -238,7 +238,7 @@ margin-top: 45px;
 .top1-right-thirth::before{
     content: "";
     position: absolute;
-    bottom:5px;
+    bottom:0px;
     left: 12px;
     width: 60px;
     border: 1px solid red;
@@ -260,7 +260,7 @@ margin-top: 45px;
     height: 276px;
     line-height: 22px;
     text-align: left;
-    top: 59px;
+    top: 50px;
     left: -187px;
     border-top: 1px solid #dfdfdf;
     box-shadow: 0px 6px 10px #dfdfdf;
@@ -310,7 +310,7 @@ margin-top: 45px;
     height: 188px;
     line-height: 22px;
     text-align: center;
-    top: 60px;
+    top: 50px;
     left: -270px;
     background-color: #ffffff;
         box-shadow: 0px 6px 10px #dfdfdf;
@@ -382,10 +382,14 @@ margin-top: 45px;
 
 .Sign {
     position: relative;
+    margin: auto;
     display: block;
-    width: 100%;
+    width: 200px;
     height: 40px;
     line-height: 40px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border-radius: 3px;
     color: white;
     font-size: 14px;
     background-color: #eb0028;
@@ -413,7 +417,6 @@ margin-top: 45px;
     color: white;
     z-index: 3;
 }
-
 .Sv{
     width: 100%;
     text-align: center;
@@ -563,44 +566,6 @@ margin-top: 45px;
     color: #828282;
 }
 
-.Sign {
-    position: relative;
-    margin: auto;
-    display: block;
-    width: 200px;
-    height: 40px;
-    line-height: 40px;
-    margin-top: 40px;
-    margin-bottom: 20px;
-    border-radius: 3px;
-    color: white;
-    font-size: 14px;
-    background-color: #eb0028;
-    text-align: center;
-}
-
-.Sign::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 0;
-    height: 100%;
-    background-color: rgba(158, 4, 4, 0.4);
-    transition: all 0.5s;
-}
-
-.Sign:hover::before{
-    width: 100%;
-}
-
-.Sign::after {
-    content: "登录";
-    position: relative;
-    color: white;
-    z-index: 3;
-}
-
 .shopping-center-content-top a:nth-child(4){
     font-size: 16px;
     color: #0099cc;
@@ -648,7 +613,45 @@ margin-top: 45px;
     margin: 15px 0px;
 }
 
+.shopping-center-content-bottom>div>a>div{
+    display:block;
+    position: relative;
+    width: 231.34px;
+    height: 40px;
+    line-height: 40px;
+    margin: 12px  28px;
+    border: 1px solid red;
+    box-sizing: border-box;
+} 
 
+.shopping-center-content-bottom>div>a>div span{
+    color: #ee1828;
+    font-size: 15px;
+}
+
+.shopping-center-content-bottom>div>a>div::before {
+    content: "加入购物车";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    color: white;
+    background-color: #b8001f;
+    transition: all 0.1s;
+    font-size: 15px;
+}
+
+
+.shopping-center-content-bottom>div>a>div:hover::before{
+    width: 231.34px;
+    z-index: 2;
+}
+
+.shopping-center-content-bottom>div>a>div:hover{
+    color: white;
+    z-index: 4;
+}
 
 
 
