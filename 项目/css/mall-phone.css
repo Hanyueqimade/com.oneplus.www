@@ -553,6 +553,49 @@ margin-top: 45px;
 }
 
 
+.phone-list{
+    height: 590px;
+    width: 1903px
+}
+.phone-list img{
+    margin:47.5px 47.5px 0px;
+}
+
+.phone-list div {
+    border: 1px solid #dfdfdf;
+    box-sizing: border-box;
+}
+
+
+.phone-list i{
+    color: #cbcccb ;
+}
+
+.phone-list h1{
+    margin-top:30px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.phone-list span{
+    font-size: 15px;
+}
+
+.phone-list del {
+    color: #cbcccb;
+    font-size: 15px ;
+    text-decoration:line-through;
+}
+
+.phone-list-1{
+    float: left;
+    width: 475px;
+    height: 590px;
+    text-align: center;
+    background-color: #fff;
+}
+
 
 
 
