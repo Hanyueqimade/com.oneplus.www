@@ -99,7 +99,8 @@ a {
   background-color: transparent;
   /* pointer是小手 */
   cursor: pointer;
-  color: #333;
+  color: black;
+  text-transform: none;
 }
 
 /**
